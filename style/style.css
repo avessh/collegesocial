@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/page_bg_blur03.jpg");
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainsection
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 7%;
+}
+
+.container
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+    width: 40%;
+    height: 50vh;
+}
+
+#loginhead{
+    padding-top: 30px;
+}
+
+#loginform{
+    display: flex;
+    
+    margin-top: 4%;
+    flex-direction: column;
+    width: 80%;
+}
+
+#submitbtn
+{
+    width: 10vh;
+    margin-left: 5%;
+ padding: 8px;
+ background-color: #1C3879;
+ border: none;
+ border-radius: 5px;
+ color: white;
+}
+
+label{
+    padding: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 8px;
+    /* border: 2px solid blue; */
+    margin-bottom: 15px;
+    background-color: rgb(233, 240,253);
+   
+}
+
+#submit{
+    float: left;
+}
+
+#link{
+    float: right;
+    margin-top: 2.5%;
+}
+
+
+@media (max-width: 540px) {
+
+    #loginhead{
+        font-size: 18px;
+       margin-bottom: 5%;
+        width: 150%;
+    }
+    #loginform{
+       
+       width: 180%;
+    }
+
+    #mainsection{
+        margin-top: 50%;
+    }
+
+}

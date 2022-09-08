@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 3% 0% 0% 5%;
+}
+#search-list{
+    margin: 2% 2% 0% 6%;
+    list-style:none;
+    
+}
+#list-items{
+    margin: 1% 0% 0.4% 2%;
+}
+hr{
+    border: none;
+   height: 0.2vh;
+   border-radius: 100%;
+  background-color:  black;
+    width: 40%;
+    margin: 4.5% 0% 0% 0%;
+}
+
+#profile-item-link{
+    color: black;
+}
+
+#user-profile-fullname-id
+{
+    font-size: 13px;
+    color: grey;
+    float: left;
+}
+
+#prifile-photo-search{
+    width: 80%;
+    border-radius: 100%;
+    float: left;
+    margin: 10% 0% 1% 0%;
+}
+
+#th-left
+{
+    width: 10vh;
+    height: 2vh;
+}
+
+#th-right{
+    width: 10vh;
+    height: 2vh;
+}
+
+#profileSubmitbtn{
+    border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+
+    .container{
+        margin-top: 10%;
+        font-size: 16px;
+    }
+h1{
+    font-size: 22px;
+}
+
+
+}
+
+

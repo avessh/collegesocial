@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#message {
+    margin: 3% 0% 0% 3%;
+}
+
+#edit-form {
+    display: flex;
+
+}
+
+
+#form-container {
+    margin: 4% 0% 0% 7%;
+    height: 60vh;
+    width: 40%;
+
+
+
+}
+
+#editform {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+label {
+    margin-left: 0%;
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+
+input {
+    margin-bottom: 13px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    /* border: 2px solid blue; */
+    background-color: rgb(233, 240, 253);
+}
+
+
+#submitbtn {
+    margin-top: 2%;
+    width: 15%;
+    padding: 8px;
+    background-color: #1C3879;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+@media (max-width: 540px) {
+    #message {
+        margin: 11% 0% 0% 3%;
+    }
+
+    #form-container {
+     
+      width: 80%;
+    }
+
+    #submitbtn {
+        width: 25%;
+    
+    }
+
+
+}

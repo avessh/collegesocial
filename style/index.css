@@ -1,0 +1,276 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+
+body {
+    background-color: rgb(251, 250, 250);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#imgdiv {
+    margin: 1% 0% 0 1%;
+
+    width: 26.4%;
+    height: 14vh;
+}
+
+#img {
+    width: 55%;
+    border-radius: 100%;
+    float: left;
+    margin: 3% 5% 0 2%;
+
+}
+
+/* common post section  */
+
+#privatepost {
+    margin: 2% 0 0 0%;
+
+    width: 25%;
+    height: 86vh;
+    /* overflow: scroll; */
+    float: left;
+    background-color: #DAE5D0;
+    border-radius: 8px;
+    color: green;
+    
+
+
+
+}
+
+#privatepostcontainer {
+    overflow: scroll;
+    scrollbar-width: none;
+    padding: 8px;
+    max-height: 80vh;
+    margin: 2% 0 0 0%;
+    
+}
+
+
+
+#posts-private {
+    background-color: white;
+    margin: 2% 1%;
+    padding: 1% 2%;
+    border-radius: 8px;
+    font-size: 14px;
+    /* border: 1.5px solid lightgrey; */
+
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+}
+
+#commonpost {
+
+    width: 45%;
+    float: left;
+    overflow: scroll;
+    scrollbar-width: none;
+    height: 90vh;
+    margin: 0% 0 0 1%;
+    padding: 15px;
+    
+    
+
+}
+
+#postcontainer {
+
+    margin: 2% 2%;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    padding: 0%;
+    border-radius: 8px;
+    max-height: 200vh;
+    border: 1.5px solid lightgrey;
+    background-color: white;
+
+}
+
+#postcontent {
+    margin: 4% 0 0 7%;
+}
+
+#top{
+    background-color: #F1EFDC;
+    height: 9vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+#connectbtns {
+    margin: 0% 0 2% 4%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#likebtn {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 3px 10px 3px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+#dislikebtn {
+    background-color: #F87474;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 3px 10px 3px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#commentbtn {
+    background-color: grey;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 3px 10px 3px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+#explorecomment {
+    background-color: grey;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 2% 0 5% 7%;
+}
+
+/* make post  */
+
+#makecommonpost {
+    margin: 2% 0 0 1%;
+
+    float: left;
+    height: 28vh;
+    width: 23.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9DAC1;
+    padding: 0.5% 0.5%;
+    border-radius: 8px;
+
+}
+
+
+#makepost {
+    background-color: white;
+    padding: 2% 2%;
+    height: 8vh;
+    font-size: 13px;
+    width: 95%;
+    /* float: left; */
+    margin: 2% 0 2.5% 1%;
+    border-radius: 8px;
+    /* border: 2px solid lightgrey; */
+    outline: none;
+
+}
+
+#to_user{
+    background-color: #E9DAC1;
+}
+
+#likesection {
+    margin: 1% 0 0% 1%;
+    float: left;
+    width: 23.5%;
+    background-color: #C9BBCF;
+    padding: 1%;
+    border-radius: 8px;
+    color: purple;
+    
+
+}
+
+
+/* responsive code  */
+
+@media (max-width: 540px) {
+
+    #privatepost {
+
+        float: left;
+       
+        /* margin-top: 10%; */
+        height: 34vh;
+        width: 50%;
+        margin-left: 0;
+
+       
+       
+    }
+    #privatepostcontainer {
+       
+        margin: 2% 0 0 2%;
+    }
+
+    #makecommonpost {
+       
+        margin-top: 2%;
+        float: left;
+        width: 47%;
+
+    }
+
+    #commonpost {
+        margin-top: 10%;
+        float: none;
+        width: 100%;
+        height: 50vh;
+      
+        margin-right: 0;
+        padding: 0;
+    }
+
+    #postcontainer {
+
+   
+    font-size: 16px;
+    padding: 0;
+   
+    
+    
+    
+    }
+
+    #postcontent {
+
+     
+      margin: 6% 0 0 3%;
+    
+    
+    }
+
+    #likesection {
+
+        width: 47%;
+        height: 5vh;
+        font-size: 14px;
+    }
+
+}

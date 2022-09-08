@@ -1,0 +1,12 @@
+#alert{
+    background-color:  rgb(244,216,218);
+    color:rgb(122,40,44);
+    font-family: 'Montserrat', sans-serif;
+    height:6vh; 
+    padding: 4px;
+    
+}
+
+p{
+    margin: 11px;
+}
